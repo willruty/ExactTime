@@ -1,0 +1,33 @@
+#new-products {
+    margin-bottom: 5em;
+}
+
+#new-products-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #101010;
+    border-radius: 30px;
+}
+
+#new-products-banner h3 {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+#new-products img {
+    height: 150px;
+    width: 90px;
+    margin: 2em auto;
+}
+
+#new-products .col-md-4 {
+    padding: 0;
+}
+
+.card {
+    margin: 10px;
+}

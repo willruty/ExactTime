@@ -1,0 +1,45 @@
+#rodape {
+    text-align: center;
+    border-top: 1px solid #626262;
+}
+
+#rodape h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+#rodape a {
+    text-decoration: none;
+    display: block;
+    margin: 0.5em;
+    transition: .3s;
+    font-size: 1.3em;
+}
+
+#rodape a:hover {
+    color: white;
+    transition: .3s;
+}
+
+#paginas{
+    padding: 2em;
+}
+
+#contato{
+    padding: 2em;
+
+    #telefone {
+        font-size: 2em;
+    }
+    
+    p#text {
+        font-size: 1.3em;
+        margin-top: 10px;
+    }
+
+}
+
+#info{
+    padding: 2em;
+}

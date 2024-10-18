@@ -1,0 +1,62 @@
+#destque {
+    padding: 4em 0;
+}
+
+#destaque .row {
+    margin: 0px;
+}
+
+#destaque .col-md-3 {
+    padding: 10px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2.5em;
+    text-align: left;
+    margin: 30px 0px;
+    margin-bottom: 1em;
+}
+
+.card {
+    text-align: center;
+    background-color: rgb(49, 49, 49);
+    border-radius: 35px;
+}
+
+.card-body {
+    background-color: rgb(65, 64, 64);
+}
+
+.card img {
+    width: 140px;
+    margin: 2em auto;
+}
+
+img.relogio-errado {
+    width: 132px;
+}
+
+.card .card-category {
+    font-size: .8rem;
+}
+
+.card-title{
+    color: white
+}
+
+.card .card-text {
+    margin: 2em 0;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: transparent;
+    border-color: #C09578;
+}
+
+.btn:hover {
+    background-color: #C09578;
+    border-color: #C09578;
+}

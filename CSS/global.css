@@ -1,0 +1,411 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #252525;
+    overflow-x: hidden;
+}
+
+/* Colors */
+.primary-bg-color {
+    background-color: #252525;
+}
+
+.secondary-bg-color {
+    background-color: #C09578;
+}
+
+.light-bg-color {
+    background-color: #FCF5EB
+}
+
+.dark-bg-color {
+    background-color: #101010;
+}
+
+.primary-color {
+    color: #C09578;
+}
+
+.secondary-color {
+    color: #626262;
+}
+
+.light-color {
+    color: #FCF5EB
+}
+
+/* Extra Small devices (phones, 576px and down) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    body {
+        width: 525px;
+    }
+
+    /* Navegação */
+    #barra-navegacao {
+        display: none;
+    }
+
+    .navbar-nav#links {
+        display: none;
+    }
+
+    .dropdown {
+        display: inline;
+    }
+
+    #logo {
+        position: relative;
+        top: -60;
+        left: 100px;
+    }
+
+    .navbar-nav.icon {
+        position: relative;
+        top: -125;
+        right: -355;
+    }
+
+    li.nav-item {
+        margin: 8px;
+    }
+
+    .col-5#search {
+        width: 510px;
+        position: relative;
+        margin-left: 0px;
+        margin-top: -60px;
+        margin-right: 100px;
+    }
+
+    .container#navegacao {
+        width: 510px;
+    }
+
+    .container.conteudo {
+        width: 510px;
+    }
+
+    /* Banner */
+    #slider .carousel-item,
+    #slider img {
+        height: 300px;
+        min-width: 400px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    .carousel-caption {
+        left: 23%;
+        right: 23%;
+    }
+
+    .carousel-caption h5 {
+        font-size: 4em;
+    }
+
+    .carousel.slide {
+        width: 500px;
+    }
+
+    /* Mini-banners */
+    .col-12 {
+        width: 710px;
+    }
+
+    /* Destaques */
+    h2.title {
+        text-align: center;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* Navegação */
+    #barra-navegacao {
+        display: none;
+    }
+
+    .navbar-nav#links {
+        display: none;
+    }
+
+    .dropdown {
+        display: inline;
+    }
+
+    #logo {
+        position: relative;
+        top: -60;
+        left: 150px;
+    }
+
+    .navbar-nav.icon {
+        position: relative;
+        top: -50;
+        right: -245;
+    }
+
+    li.nav-item {
+        margin: 8px;
+    }
+
+    .col-5#search {
+        width: 510px;
+        position: absolute;
+        margin-left: 0px;
+        margin-top: 80px;
+    }
+
+    /* Banner */
+    #slider .carousel-item,
+    #slider img {
+        height: 300px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .carousel-caption {
+        left: 23%;
+        right: 23%;
+    }
+
+    .carousel-caption h5 {
+        font-size: 4em;
+    }
+
+    /* Destaque */
+
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* Navegação */
+    .dropdown {
+        display: none;
+    }
+
+    /* Banner */
+    #slider .carousel-item,
+    #slider img {
+        height: 400px;
+    }
+
+    .carousel-caption {
+        left: 23%;
+        right: 23%;
+    }
+
+    .carousel-caption h5 {
+        font-size: 4em;
+    }
+
+    /* Mini Banners */
+    #mini-banners .col-12 {
+        max-width: 30%;
+    }
+
+    /* Best Sellers */
+    .card {
+        min-width: 300px;
+    }
+
+    .col-12 {
+        width: 50%;
+    }
+
+    /* Relógio Destaque */
+    #bottom-banner h2 {
+        font-size: 6em;
+    }
+
+    .offer-subtitle{
+        margin-top: 60px;
+    }
+
+    /* New Products */
+    #new-products-banner {
+        width: 100%;
+        padding: 2.5em;
+    }
+
+    #relogios{
+        width: 100%;
+    }
+
+    /* Footer */
+    #rodape {
+        padding: 0;
+        height: 200px;
+    }
+
+    #rodape .row{
+        width: 33.33%;
+        float: left;
+        margin: 0;
+    }
+
+    #rodape .row h3{
+        font-size: 1.5em;
+    }
+
+    #rodape .row a {
+        font-size: 1em;
+    }
+
+    #rodape .row .col-12{
+        width: 100%;
+    }
+
+    #rodape #contato {
+
+        #telefone {
+            font-size: 1em;
+        }
+        
+        p#text.secondary-color{
+            font-size: 1em;
+            margin-top: 10px;
+        }
+    }
+
+    #rodape #paginas, #contato, #info{
+        height: 200px;
+    }
+
+    #newsletter .col-12{
+        width: 100%;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* Navegação */
+    .dropdown {
+        display: none;
+    }
+
+    #mini-banners .col-12 {
+        max-width: 30%;
+    }
+
+    /* Relógio Destaque */
+    #bottom-banner h2 {
+        font-size: 6em;
+    }
+
+    .offer-subtitle{
+        margin-top: 60px;
+    }
+
+    /* Footer */
+    #rodape {
+        padding: 0;
+        height: 200px;
+    }
+
+    #rodape .row{
+        width: 33.33%;
+        float: left;
+        margin: 0;
+    }
+
+    #rodape .row h3{
+        font-size: 1.5em;
+    }
+
+    #rodape .row a {
+        font-size: 1em;
+    }
+
+    #rodape .row .col-12{
+        width: 100%;
+    }
+
+    #rodape #contato {
+
+        #telefone {
+            font-size: 1.6em;
+        }
+        
+        p#text.secondary-color{
+            font-size: 1em;
+            margin-top: 10px;
+        }
+    }
+
+    #rodape #paginas, #contato, #info{
+        height: 200px;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+    /* Navegação */
+    .dropdown {
+        display: none;
+    }
+
+    #mini-banners .col-12 {
+        max-width: 30%;
+    }
+
+    /* Relógio Destaque */
+    #bottom-banner h2 {
+        font-size: 6em;
+    }
+
+    .offer-subtitle{
+        margin-top: 60px;
+    }
+
+    /* Footer */
+    #rodape {
+        padding: 0;
+        height: 200px;
+    }
+
+    #rodape .row{
+        width: 33.33%;
+        float: left;
+        margin: 0;
+    }
+
+    #rodape .row h3{
+        font-size: 1.5em;
+    }
+
+    #rodape .row a {
+        font-size: 1em;
+    }
+
+    #rodape .row .col-12{
+        width: 100%;
+    }
+
+    #rodape #contato {
+
+        #telefone {
+            font-size: 1.7em;
+            margin-top: 0;
+        }
+        
+        p#text.secondary-color{
+            font-size: 1.3em;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+    }
+
+    #rodape #paginas, #contato, #info{
+        height: 200px;
+    }
+}

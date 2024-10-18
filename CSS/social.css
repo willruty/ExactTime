@@ -1,0 +1,58 @@
+#newsletter{
+    border-top: 1px solid #626262;
+    background-color: #161616;
+    text-align: center;
+    align-items: center;
+    padding: 2em;
+}
+
+#news-form{
+    max-width: 600px;
+    margin: 15px auto;
+    align-self: center;
+    width: 100%;
+}
+
+#news-form input{
+    width: 100%;
+    background-color: #2e2b2b;
+    border: none;
+    color: #fff;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+#news-form i {
+    font-size: 1.5em;
+    padding-top: 5px;
+    padding-right: 10px;
+    background-color: #2e2b2b;
+    padding-left: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#news-form .btn{
+    color: #fff;
+}
+
+#social-container .bi{
+    color: #626262;
+    font-size: 1.5em;
+    margin: 5px;
+    transition: all .3s;
+}
+
+#social-container .bi:hover{
+    color: #9b9b9b;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.row #direitos{
+    margin-top: 20px;
+}

@@ -1,0 +1,24 @@
+#banner-bottom{
+    background-color: #101010;
+    text-align: center;
+    padding: 6em;
+    margin-bottom: 4em;
+    margin-top: 3em;
+    border-radius: 30px;
+}
+
+#banner-bottom .offer-subtitle,
+#banner-bottom h2{
+    font-weight: bold;
+    text-transform: uppercase;
+} 
+
+#banner-bottom .btn{
+    margin: 3em;
+    font-weight: bold;
+    padding: 1em;
+}
+
+#banner-bottom img{
+    max-width: 175px;
+}

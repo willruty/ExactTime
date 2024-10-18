@@ -1,0 +1,92 @@
+nav{
+    background-color: #252525;
+    height: 100px;
+}
+
+#navegacao{
+    height: 20%;
+}
+
+#logo{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    line-height: 2em;
+    font-weight: 100;
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+}
+
+#search{
+    margin-top: 25px;
+    margin-left: 4%;
+}
+
+.btn-dark{
+    background-color: #91705b;
+}
+
+button.btn-dark{
+    background-color: #91705b;
+}
+
+#icones i{
+    color: white;
+    font-size: 1.8em;
+    transition: 0.4s;
+}
+
+#icones i:hover{
+    color: #747373;
+    transition: 0.4s;
+}
+
+.navbar-nav.icon{
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-left: 200%;
+}
+
+.nav-item{
+    margin: 15px;
+    line-height: 1em;
+}
+
+#barra-navegacao{
+    background-color: #91705b;
+    height: 55px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+#links{
+    position: relative;
+    display: inline;
+    float: left;
+}
+
+.navbar-nav li a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    float: left;
+}
+
+#links li.nav-item{
+    float: right;
+    line-height: 1.5em;
+    font-weight: 100;
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+}
+
+.navbar-nav li a:hover{
+    text-decoration: underline;
+}
+
+button.btn-secondary{
+    background-color: #91705b;
+    border: none;
+    transition: 0.4s;
+    margin-top: 25px;
+}
